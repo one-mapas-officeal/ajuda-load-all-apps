@@ -1,7 +1,8 @@
 # System-Android Bridge Monitor
 
 Este projeto monitora o uso de CPU e RAM do seu computador (Linux/Ubuntu) e dispara comandos automáticos para um dispositivo Android conectado via **ADB (Android Debug Bridge)**.
-
+* [**Como ativar a Depuração USB**](DEBUG_USB.md) - Guia passo a passo para preparar seu Android.
+* [**Configurando o ADB no Linux**](CONFIG_ADB.md) - Como instalar e verificar a comunicação via cabo.
 ## Funcionalidades
 - **Detecção Automática:** Calcula o total de RAM do sistema e define limites de alerta dinamicamente.
 - **Monitoramento em Tempo Real:** Verifica CPU e RAM a cada 2 segundos.
