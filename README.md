@@ -1,0 +1,1 @@
+# ajuda-load-all-apps
