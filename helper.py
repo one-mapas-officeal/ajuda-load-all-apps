@@ -15,22 +15,22 @@ def processar_tarefa_no_celular():
     
     # 1. Despertar celular (Liga a tela)
     comando_adb("input keyevent 26") 
-    time.sleep(1)
+    time.sleep(0)
     
     # 2. Desbloquear (se necessário, deslizar para cima)
     comando_adb("input swipe 500 1500 500 500")
-    time.sleep(1)
+    time.sleep(0)
     
     # 3. Aqui você abre seu app ou executa a tarefa
     # Exemplo: Abrir um app específico pelo nome do pacote
     # comando_adb("monkey -p com.exemplo.seuapp 1")
     
     print("[PC] Executando tarefas no celular...")
-    time.sleep(10) # Tempo de processamento no celular
+    time.sleep(1) # Tempo de processamento no celular
     
     # 4. Fechar app (ou voltar para home)
     comando_adb("input keyevent 3")
-    time.sleep(1)
+    time.sleep(0)
     
     # 5. Desligar a tela (Tela preta)
     comando_adb("input keyevent 26")
